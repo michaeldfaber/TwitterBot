@@ -6,21 +6,21 @@ I <3 constructive criticism, so if you think there's something that could have b
 
 <i>*This is a work in progress.</i>
 
-#### Prerequisites
+### Prerequisites
 
 * A twitter account with a verified email. This will be the account that tweets.
 * A Heroku account. Heroku is a cloud platform. The free account is strong enough to host this bot. See the 'Setting Up Heroku' section for more details.
 * It's helpful to have a computer that can execute .py (Python) scripts.
 
-#### Setting Up Your Twitter Account
+### Setting Up Your Twitter Account
 
-#### Generating Random Sentences
+### Generating Random Sentences
 
 The bot.py script that was provided is what will run on the cloud. It generates a random sentence, tweets it, and then sleeps for a given amount of time.
 
-<i>This is optional testing/understanding.</i>
+The code generates the random sentence by randomly choosing words that appear next to one another from the sentences provided in sentences.txt. If you haven't made any changes to the solution, sentences.txt will contain the poem <i>There is Another Sky</i> by Emily Dickinson. Change this as desired. Sentences need to be in the format that this poem is in. Each one needs a new line, and to end with either a period (.), question mark (?), or exclamation point (!).
 
-The code generates the random sentence by mixing and randomly choosing words that appear next to one another from the sentences provided in sentences.txt. If you haven't made any changes to the solution, sentences.txt will contain the poem <i>There is Another Sky</i> by Emily Dickinson. Change this as desired. Sentences need to be in the format that this poem is in. Each one needs a new line, and to end with either a period (.), question mark (?), or exclamation point (!).
+##### Optional Testing/Understanding
 
 Let's modify bot.py so that we can generate a random sentence and print it out rather than tweet it. Try replacing your main function in bot.py with this new one:
 
@@ -70,4 +70,4 @@ And you'll see that it used the poem to generate a random sentence.
 
 If you get an error related to tweepy, use pip to install it.
 
-#### Setting Up Heroku
+### Setting Up Heroku
